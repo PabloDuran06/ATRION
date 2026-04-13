@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATRION — Soluciones Electrónicas para la Industria</title>
+  <meta name="description" content="Más de 35 años de experiencia en electrónica. Distribución de componentes, ingeniería, fabricación y soluciones IoT para la industria europea.">
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- ═══════════════ HEADER ═══════════════ -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#inicio" class="header__logo" data-page="inicio" aria-label="ATRION - Inicio">
+        <img src="./assets/logo.jpg" alt="ATRION" class="header__logo-img">
+      </a>
+
+      <nav class="nav" role="navigation" aria-label="Navegación principal">
+        <a href="#inicio"       class="nav__link" data-page="inicio">Inicio</a>
+        <a href="#servicios"    class="nav__link" data-page="servicios">Servicios</a>
+        <a href="#fabricacion"  class="nav__link" data-page="fabricacion">Fabricación</a>
+        <a href="#ingenieria"   class="nav__link" data-page="ingenieria">Ingeniería</a>
+        <a href="#productos"    class="nav__link" data-page="productos">Productos</a>
+        <a href="#contacto"     class="nav__link" data-page="contacto">Contacto</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menú">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#inicio"       class="nav__link" data-page="inicio">Inicio</a>
+    <a href="#servicios"    class="nav__link" data-page="servicios">Servicios</a>
+    <a href="#fabricacion"  class="nav__link" data-page="fabricacion">Fabricación</a>
+    <a href="#ingenieria"   class="nav__link" data-page="ingenieria">Ingeniería</a>
+    <a href="#productos"    class="nav__link" data-page="productos">Productos</a>
+    <a href="#contacto"     class="nav__link" data-page="contacto">Contacto</a>
+  </div>
+
+  <!-- ═══════════════ PAGES ═══════════════ -->
+  <main class="pages">
+
+    <!-- ══════════════════════════════════════════
+         PAGE: INICIO
+         ══════════════════════════════════════════ -->
+    <div class="page" id="page-inicio">
+
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero__bg">
+          <div class="hero__bg-grid"></div>
+          <div class="hero__bg-glow"></div>
+          <div class="hero__bg-glow hero__bg-glow--2"></div>
+        </div>
+        <div class="hero__content container container--max">
+          <div class="hero__text">
+            <div class="hero__badge">
+              <span class="hero__badge-dot"></span>
+              +35 años en electrónica
+            </div>
+            <h1 class="hero__title">
+              No vendemos productos,<br>vendemos <span>soluciones</span>
+            </h1>
+            <p class="hero__subtitle">
+              Expertos en distribución de componentes electrónicos, ingeniería, fabricación EMS y tecnología IoT.
+              Un solo contacto para resolver las necesidades de tu empresa.
+            </p>
+            <div class="hero__ctas">
+              <a href="#contacto" class="btn btn--primary btn--lg" data-page="contacto">Contactar</a>
+              <a href="#servicios" class="btn btn--secondary btn--lg" data-page="servicios">Ver servicios</a>
+            </div>
+          </div>
+          <div class="hero__visual">
+            <svg class="hero__circuit" viewBox="0 0 480 480" fill="none">
+              <rect x="60" y="60" width="360" height="360" rx="32" fill="var(--color-surface)" stroke="var(--color-divider)" stroke-width="1"/>
+              <rect x="170" y="170" width="140" height="140" rx="12" fill="var(--color-primary-light)" stroke="var(--color-primary)" stroke-width="1.5"/>
+              <text x="240" y="248" text-anchor="middle" font-family="var(--font-display)" font-size="22" font-weight="700" fill="var(--color-primary)">ATRION</text>
+              <line x1="200" y1="170" x2="200" y2="120" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.5"/>
+              <line x1="230" y1="170" x2="230" y2="100" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.4"/>
+              <line x1="260" y1="170" x2="260" y2="110" stroke="var(--color-accent)" stroke-width="1.5" opacity="0.5"/>
+              <line x1="280" y1="170" x2="280" y2="90" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.3"/>
+              <line x1="200" y1="310" x2="200" y2="370" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.5"/>
+              <line x1="240" y1="310" x2="240" y2="390" stroke="var(--color-accent)" stroke-width="1.5" opacity="0.4"/>
+              <line x1="270" y1="310" x2="270" y2="360" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.5"/>
+              <line x1="170" y1="200" x2="110" y2="200" stroke="var(--color-accent)" stroke-width="1.5" opacity="0.4"/>
+              <line x1="170" y1="240" x2="90" y2="240" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.5"/>
+              <line x1="170" y1="270" x2="120" y2="270" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.3"/>
+              <line x1="310" y1="210" x2="380" y2="210" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.5"/>
+              <line x1="310" y1="240" x2="400" y2="240" stroke="var(--color-accent)" stroke-width="1.5" opacity="0.4"/>
+              <line x1="310" y1="280" x2="370" y2="280" stroke="var(--color-primary)" stroke-width="1.5" opacity="0.3"/>
+              <circle cx="200" cy="120" r="4" fill="var(--color-primary)" opacity="0.6"/>
+              <circle cx="260" cy="110" r="4" fill="var(--color-accent)" opacity="0.5"/>
+              <circle cx="240" cy="390" r="4" fill="var(--color-accent)" opacity="0.5"/>
+              <circle cx="90" cy="240" r="4" fill="var(--color-primary)" opacity="0.5"/>
+              <circle cx="400" cy="240" r="4" fill="var(--color-accent)" opacity="0.5"/>
+              <rect x="80" y="100" width="24" height="14" rx="3" fill="none" stroke="var(--color-text-faint)" stroke-width="1" opacity="0.3"/>
+              <rect x="370" y="330" width="24" height="14" rx="3" fill="none" stroke="var(--color-text-faint)" stroke-width="1" opacity="0.3"/>
+              <circle cx="130" cy="360" r="10" fill="none" stroke="var(--color-text-faint)" stroke-width="1" opacity="0.25"/>
+              <circle cx="200" cy="120" r="8" fill="var(--color-primary)" opacity="0.15">
+                <animate attributeName="r" values="4;12;4" dur="3s" repeatCount="indefinite"/>
+                <animate attributeName="opacity" values="0.3;0.05;0.3" dur="3s" repeatCount="indefinite"/>
+              </circle>
+              <circle cx="400" cy="240" r="8" fill="var(--color-accent)" opacity="0.15">
+                <animate attributeName="r" values="4;10;4" dur="2.5s" repeatCount="indefinite"/>
+                <animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.5s" repeatCount="indefinite"/>
+              </circle>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- MÉTRICAS -->
+      <section class="metrics">
+        <div class="container container--max">
+          <div class="metrics__grid">
+            <div class="metric">
+              <div class="metric__value" data-target="35" data-prefix="+"><span>+35</span></div>
+              <div class="metric__label">Años de experiencia</div>
+            </div>
+            <div class="metric">
+              <div class="metric__value" data-target="500" data-prefix="+" data-suffix="M€"><span>+500</span>M€</div>
+              <div class="metric__label">Ventas acumuladas</div>
+            </div>
+            <div class="metric">
+              <div class="metric__value" data-target="3000" data-prefix="+"><span>+3.000</span></div>
+              <div class="metric__label">Clientes en Europa</div>
+            </div>
+            <div class="metric">
+              <div class="metric__value" data-target="1000" data-suffix="M"><span>1.000</span>M</div>
+              <div class="metric__label">Piezas vendidas/año</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CLIENTES MARQUEE -->
+      <section class="clients">
+        <div class="container container--max">
+          <p class="clients__label">Confían en nosotros</p>
+          <div class="clients-scroll">
+            <div class="clients-track">
+              <span class="client-logo">ABB</span><span class="client-logo">Alcatel</span><span class="client-logo">Bosch</span><span class="client-logo">Celestica</span><span class="client-logo">Continental</span><span class="client-logo">Denso</span><span class="client-logo">Flextronics</span><span class="client-logo">Fujitsu</span><span class="client-logo">GE</span><span class="client-logo">Indra</span><span class="client-logo">Mahle</span><span class="client-logo">Motorola</span><span class="client-logo">Nidec</span><span class="client-logo">Panasonic</span><span class="client-logo">Philips</span><span class="client-logo">Siemens</span><span class="client-logo">Sony</span><span class="client-logo">Valeo</span>
+            </div>
+            <div class="clients-track" aria-hidden="true">
+              <span class="client-logo">ABB</span><span class="client-logo">Alcatel</span><span class="client-logo">Bosch</span><span class="client-logo">Celestica</span><span class="client-logo">Continental</span><span class="client-logo">Denso</span><span class="client-logo">Flextronics</span><span class="client-logo">Fujitsu</span><span class="client-logo">GE</span><span class="client-logo">Indra</span><span class="client-logo">Mahle</span><span class="client-logo">Motorola</span><span class="client-logo">Nidec</span><span class="client-logo">Panasonic</span><span class="client-logo">Philips</span><span class="client-logo">Siemens</span><span class="client-logo">Sony</span><span class="client-logo">Valeo</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- QUICK LINKS a secciones -->
+      <section class="section quicklinks-section">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-header__overline">Soluciones</div>
+            <h2 class="section-header__title">¿Qué necesitas?</h2>
+            <p class="section-header__desc">Navega a la sección que mejor se adapte a tu necesidad.</p>
+          </div>
+          <div class="quicklinks-grid">
+            <a class="quicklink-card" href="#servicios" data-page="servicios">
+              <div class="quicklink-card__icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/><circle cx="12" cy="12" r="4"/></svg>
+              </div>
+              <h3 class="quicklink-card__title">Servicios</h3>
+              <p class="quicklink-card__desc">Reducción de costes, ingeniería electrónica y desarrollo comercial.</p>
+              <span class="quicklink-card__arrow">→</span>
+            </a>
+            <a class="quicklink-card" href="#fabricacion" data-page="fabricacion">
+              <div class="quicklink-card__icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+              </div>
+              <h3 class="quicklink-card__title">Fabricación EMS</h3>
+              <p class="quicklink-card__desc">Red de 6 fábricas en Europa y Asia. Desde prototipos a grandes series.</p>
+              <span class="quicklink-card__arrow">→</span>
+            </a>
+            <a class="quicklink-card" href="#ingenieria" data-page="ingenieria">
+              <div class="quicklink-card__icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h3 class="quicklink-card__title">Ingeniería</h3>
+              <p class="quicklink-card__desc">+35 especialidades: hardware, firmware, UWB, 5G, IoT, PCB design.</p>
+              <span class="quicklink-card__arrow">→</span>
+            </a>
+            <a class="quicklink-card" href="#productos" data-page="productos">
+              <div class="quicklink-card__icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+              </div>
+              <h3 class="quicklink-card__title">Productos</h3>
+              <p class="quicklink-card__desc">Componentes de fabricantes líderes: condensadores, PCB, motores y más.</p>
+              <span class="quicklink-card__arrow">→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- /page-inicio -->
+
+
+    <!-- ══════════════════════════════════════════
+         PAGE: SERVICIOS
+         ══════════════════════════════════════════ -->
+    <div class="page" id="page-servicios">
+      <div class="page-hero">
+        <div class="container">
+          <div class="section-header__overline">Nuestros Servicios</div>
+          <h1 class="page-hero__title">Soluciones integrales para la industria electrónica</h1>
+          <p class="page-hero__desc">Tres líneas de servicio especializadas cubren toda la cadena de valor electrónica.</p>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="container">
+          <div class="services-grid">
+            <!-- COST -->
+            <div class="service-card service-card--featured">
+              <div class="service-card__header">
+                <div class="service-card__icon">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/><path d="M16 8h-4V6"/></svg>
+                </div>
+                <span class="service-card__tag">ATRION Cost</span>
+              </div>
+              <h2 class="service-card__title">Reduce costes en tu electrónica sin comprometer calidad</h2>
+              <p class="service-card__desc">Expertos en optimización del BOM (Bill of Materials). Encontramos alternativas verificadas, negociamos con proveedores globales y reducimos tus costes de materia prima electrónica.</p>
+              <ul class="service-card__list" role="list">
+                <li>Auditoría y análisis del BOM actual</li>
+                <li>Búsqueda de componentes alternativos validados</li>
+                <li>Negociación directa con fabricantes globales</li>
+                <li>Análisis comparativo de precios internacionales</li>
+                <li>Optimización de stocks y obsolescencias</li>
+                <li>Gestión de problemas de suministro</li>
+              </ul>
+            </div>
+
+            <!-- INGENIERÍA -->
+            <div class="service-card service-card--featured">
+              <div class="service-card__header">
+                <div class="service-card__icon">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                </div>
+                <span class="service-card__tag">ATRION Ingeniería</span>
+              </div>
+              <h2 class="service-card__title">Ingeniería electrónica integral, de la idea al producto</h2>
+              <p class="service-card__desc">Servicios completos de ingeniería para fabricantes del sector electrónico: desde el diseño de producto hasta la certificación final.</p>
+              <ul class="service-card__list" role="list">
+                <li>Diseño y desarrollo de productos electrónicos</li>
+                <li>Hardware: esquemáticos, PCB, potencia, analógica</li>
+                <li>Firmware y software embebido (C, ARM, STM32, Nordic)</li>
+                <li>Diseño de fuentes de alimentación custom</li>
+                <li>Prototipos rápidos y MVPs</li>
+                <li>Certificaciones (CE, ATEX, etc.)</li>
+              </ul>
+            </div>
+
+            <!-- SALES -->
+            <div class="service-card service-card--featured">
+              <div class="service-card__header">
+                <div class="service-card__icon">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <span class="service-card__tag">ATRION Sales</span>
+              </div>
+              <h2 class="service-card__title">Consultoría de desarrollo comercial para fabricantes</h2>
+              <p class="service-card__desc">Especialistas en abrir mercados y expandir la presencia de fabricantes de electrónica en Europa, aprovechando nuestra red de más de 3.000 clientes industriales.</p>
+              <ul class="service-card__list" role="list">
+                <li>Apertura de nuevos mercados en Europa</li>
+                <li>Representación de fabricantes internacionales</li>
+                <li>Acceso a red de +3.000 clientes industriales</li>
+                <li>Desarrollo de estrategia comercial</li>
+                <li>Gestión de distribuidores y canales</li>
+                <li>Marketing técnico y posicionamiento</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- OTROS SERVICIOS — tabla técnica limpia -->
+          <div class="tech-table-section">
+            <h2 class="tech-table-section__title">Capacidades técnicas detalladas</h2>
+            <p class="tech-table-section__desc">Áreas en las que nuestros equipos y partners tienen experiencia contrastada.</p>
+
+            <div class="tech-categories">
+              <div class="tech-category">
+                <h3 class="tech-category__title">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                  Innovación / I+D+i
+                </h3>
+                <div class="tech-items">
+                  <span class="tech-item">5G</span>
+                  <span class="tech-item">AI / Machine Learning</span>
+                  <span class="tech-item">Augmented Reality</span>
+                  <span class="tech-item">Blockchain</span>
+                  <span class="tech-item">Ciberseguridad</span>
+                  <span class="tech-item">IoT</span>
+                  <span class="tech-item">Bluetooth / BLE</span>
+                  <span class="tech-item">LoRa / Sigfox</span>
+                  <span class="tech-item">Wi-Fi 6</span>
+                </div>
+              </div>
+
+              <div class="tech-category">
+                <h3 class="tech-category__title">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></svg>
+                  Hardware & PCB
+                </h3>
+                <div class="tech-items">
+                  <span class="tech-item">Diseño electrónico</span>
+                  <span class="tech-item">Diseño PCB</span>
+                  <span class="tech-item">Electrónica analógica</span>
+                  <span class="tech-item">Electrónica de potencia</span>
+                  <span class="tech-item">Electrónica digital</span>
+                  <span class="tech-item">Fuentes de alimentación custom</span>
+                  <span class="tech-item">Oficina técnica mecánica</span>
+                  <span class="tech-item">Herramientas de verificación</span>
+                </div>
+              </div>
+
+              <div class="tech-category">
+                <h3 class="tech-category__title">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  Firmware & Software
+                </h3>
+                <div class="tech-items">
+                  <span class="tech-item">Embedded C / C++</span>
+                  <span class="tech-item">ARM Cortex M</span>
+                  <span class="tech-item">STM32</span>
+                  <span class="tech-item">Nordic NRF52 / NRF53</span>
+                  <span class="tech-item">FreeRTOS</span>
+                  <span class="tech-item">Zephyr OS</span>
+                  <span class="tech-item">Python</span>
+                  <span class="tech-item">MATLAB</span>
+                  <span class="tech-item">Android / Linux / Windows</span>
+                </div>
+              </div>
+
+              <div class="tech-category">
+                <h3 class="tech-category__title">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"/><line x1="2" y1="20" x2="2.01" y2="20"/></svg>
+                  Comunicaciones & IoT
+                </h3>
+                <div class="tech-items">
+                  <span class="tech-item tech-item--accent">UWB (Ultra Wide Band)</span>
+                  <span class="tech-item tech-item--accent">RTLS (Real Time Location)</span>
+                  <span class="tech-item">GPS / GNSS / Glonass</span>
+                  <span class="tech-item">4G LTE / 5G NR</span>
+                  <span class="tech-item">NB-IoT / LTE-M</span>
+                  <span class="tech-item">MODBUS</span>
+                  <span class="tech-item">Zigbee</span>
+                  <span class="tech-item">Ethernet 10/100</span>
+                </div>
+              </div>
+
+              <div class="tech-category">
+                <h3 class="tech-category__title">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Fabricación EMS
+                </h3>
+                <div class="tech-items">
+                  <span class="tech-item">Inserción SMD</span>
+                  <span class="tech-item">BGA</span>
+                  <span class="tech-item">Through Hole (TH)</span>
+                  <span class="tech-item">Soldadura refusión</span>
+                  <span class="tech-item">Soldadura ola</span>
+                  <span class="tech-item">Recubrimiento selectivo</span>
+                  <span class="tech-item">Testeo funcional</span>
+                  <span class="tech-item">Prototipos rápidos</span>
+                </div>
+              </div>
+
+              <div class="tech-category">
+                <h3 class="tech-category__title">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                  Diseño mecánico
+                </h3>
+                <div class="tech-items">
+                  <span class="tech-item">Diseño 3D</span>
+                  <span class="tech-item">Prototipado 3D</span>
+                  <span class="tech-item">Inyección plástica</span>
+                  <span class="tech-item">Moldes de inyección</span>
+                  <span class="tech-item">MVP (Mínimo Producto Viable)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div><!-- /page-servicios -->
+
+
+    <!-- ══════════════════════════════════════════
+         PAGE: FABRICACIÓN
+         ══════════════════════════════════════════ -->
+    <div class="page" id="page-fabricacion">
+      <div class="page-hero">
+        <div class="container">
+          <div class="section-header__overline">Fabricación Electrónica</div>
+          <h1 class="page-hero__title">Red de fabricación en 6 países</h1>
+          <p class="page-hero__desc">+30 años de experiencia. No hay un mejor proveedor, sino el mejor proveedor para cada necesidad.</p>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="container">
+          <div class="factories-grid">
+
+            <div class="factory-card">
+              <div class="factory-card__head">
+                <div class="factory-card__flag-name">
+                  <span class="factory-card__emoji">🇪🇸</span>
+                  <div>
+                    <div class="factory-card__country">España</div>
+                    <div class="factory-card__id">FABRICA 001</div>
+                  </div>
+                </div>
+                <div class="factory-card__certs">
+                  <span class="cert-badge">ISO13485</span>
+                  <span class="cert-badge">ISO9001</span>
+                </div>
+              </div>
+              <div class="factory-card__stats">
+                <div class="factory-stat"><span class="factory-stat__val">50–100</span><span class="factory-stat__lbl">Trabajadores</span></div>
+                <div class="factory-stat"><span class="factory-stat__val">6–10M€</span><span class="factory-stat__lbl">Facturación</span></div>
+              </div>
+              <p class="factory-card__desc">Calidad y servicio inmejorable para <strong>prototipos y series medianas/largas</strong>. Proximidad y respuesta rápida.</p>
+              <div class="factory-card__tags">
+                <span class="ftag">Prototipos</span>
+                <span class="ftag">Series medianas</span>
+                <span class="ftag">Series largas</span>
+              </div>
+            </div>
+
+            <div class="factory-card factory-card--highlight">
+              <div class="factory-card__head">
+                <div class="factory-card__flag-name">
+                  <span class="factory-card__emoji">🇵🇱</span>
+                  <div>
+                    <div class="factory-card__country">Polonia</div>
+                    <div class="factory-card__id">FABRICA 002</div>
+                  </div>
+                </div>
+                <div class="factory-card__certs">
+                  <span class="cert-badge">ISO13485</span>
+                  <span class="cert-badge">ISO9001</span>
+                  <span class="cert-badge">ISO14001</span>
+                  <span class="cert-badge">ISO45001</span>
+                </div>
+              </div>
+              <div class="factory-card__stats">
+                <div class="factory-stat"><span class="factory-stat__val">138</span><span class="factory-stat__lbl">Trabajadores</span></div>
+                <div class="factory-stat"><span class="factory-stat__val">70M€</span><span class="factory-stat__lbl">Facturación</span></div>
+              </div>
+              <p class="factory-card__desc">Europa del Este. <strong>Costes muy competitivos</strong> con alta calidad certificada. Cuatro certificaciones ISO activas.</p>
+              <div class="factory-card__tags">
+                <span class="ftag ftag--blue">Coste competitivo</span>
+                <span class="ftag">Series largas</span>
+                <span class="ftag">Medical</span>
+              </div>
+            </div>
+
+            <div class="factory-card">
+              <div class="factory-card__head">
+                <div class="factory-card__flag-name">
+                  <span class="factory-card__emoji">🇭🇷</span>
+                  <div>
+                    <div class="factory-card__country">Croacia</div>
+                    <div class="factory-card__id">FABRICA 003</div>
+                  </div>
+                </div>
+                <div class="factory-card__certs">
+                  <span class="cert-badge">ISO</span>
+                </div>
+              </div>
+              <div class="factory-card__stats">
+                <div class="factory-stat"><span class="factory-stat__val">10</span><span class="factory-stat__lbl">Trabajadores</span></div>
+                <div class="factory-stat"><span class="factory-stat__val">2M€</span><span class="factory-stat__lbl">Facturación</span></div>
+              </div>
+              <p class="factory-card__desc"><strong>Prototipos rápidos</strong>, acepta solo mano de obra. Ideal para proyectos ágiles con plazos cortos.</p>
+              <div class="factory-card__tags">
+                <span class="ftag">Prototipos rápidos</span>
+                <span class="ftag">Solo MO</span>
+                <span class="ftag">Plazos cortos</span>
+              </div>
+            </div>
+
+            <div class="factory-card factory-card--highlight">
+              <div class="factory-card__head">
+                <div class="factory-card__flag-name">
+                  <span class="factory-card__emoji">🇭🇺</span>
+                  <div>
+                    <div class="factory-card__country">Hungría</div>
+                    <div class="factory-card__id">FABRICA 004</div>
+                  </div>
+                </div>
+                <div class="factory-card__certs">
+                  <span class="cert-badge">ISO9001</span>
+                  <span class="cert-badge">ISO13485</span>
+                  <span class="cert-badge">ISO14001</span>
+                  <span class="cert-badge">ISO50001</span>
+                </div>
+              </div>
+              <div class="factory-card__stats">
+                <div class="factory-stat"><span class="factory-stat__val">1.200</span><span class="factory-stat__lbl">Trabajadores</span></div>
+                <div class="factory-stat"><span class="factory-stat__val">177M€</span><span class="factory-stat__lbl">Facturación</span></div>
+              </div>
+              <p class="factory-card__desc">Empresa de <strong>gran capacidad</strong>. Costes muy competitivos. Cliente objetivo: volúmenes superiores a 5M€/año.</p>
+              <div class="factory-card__tags">
+                <span class="ftag ftag--blue">Alta capacidad</span>
+                <span class="ftag ftag--blue">+5M€/año</span>
+                <span class="ftag">Coste competitivo</span>
+              </div>
+            </div>
+
+            <div class="factory-card">
+              <div class="factory-card__head">
+                <div class="factory-card__flag-name">
+                  <span class="factory-card__emoji">🇹🇷</span>
+                  <div>
+                    <div class="factory-card__country">Turquía</div>
+                    <div class="factory-card__id">FABRICA 005</div>
+                  </div>
+                </div>
+                <div class="factory-card__certs">
+                  <span class="cert-badge">ISO9001</span>
+                </div>
+              </div>
+              <div class="factory-card__stats">
+                <div class="factory-stat"><span class="factory-stat__val">600</span><span class="factory-stat__lbl">Trabajadores</span></div>
+                <div class="factory-stat"><span class="factory-stat__val">91M€</span><span class="factory-stat__lbl">Facturación</span></div>
+              </div>
+              <p class="factory-card__desc">Empresa euroasiática. <strong>Costes muy competitivos</strong>. Buena opción para producción de volumen medio-alto.</p>
+              <div class="factory-card__tags">
+                <span class="ftag">Euroasiática</span>
+                <span class="ftag">Volumen medio-alto</span>
+              </div>
+            </div>
+
+            <div class="factory-card">
+              <div class="factory-card__head">
+                <div class="factory-card__flag-name">
+                  <span class="factory-card__emoji">🇨🇳</span>
+                  <div>
+                    <div class="factory-card__country">China</div>
+                    <div class="factory-card__id">FABRICA 006</div>
+                  </div>
+                </div>
+                <div class="factory-card__certs">
+                  <span class="cert-badge">ISO9001</span>
+                </div>
+              </div>
+              <div class="factory-card__stats">
+                <div class="factory-stat"><span class="factory-stat__val">120+</span><span class="factory-stat__lbl">Trabajadores</span></div>
+                <div class="factory-stat"><span class="factory-stat__val">20M€+</span><span class="factory-stat__lbl">Facturación</span></div>
+              </div>
+              <p class="factory-card__desc">Especialista en <strong>GPS, IoT y M2M</strong>. Productos conectados y módulos de comunicación.</p>
+              <div class="factory-card__tags">
+                <span class="ftag">GPS / IoT</span>
+                <span class="ftag">M2M</span>
+                <span class="ftag">Módulos conectados</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div><!-- /page-fabricacion -->
+
+
+    <!-- ══════════════════════════════════════════
+         PAGE: INGENIERÍA
+         ══════════════════════════════════════════ -->
+    <div class="page" id="page-ingenieria">
+      <div class="page-hero">
+        <div class="container">
+          <div class="section-header__overline">Ingeniería</div>
+          <h1 class="page-hero__title">Partners técnicos para cada proyecto</h1>
+          <p class="page-hero__desc">Red de ingenieros especializados en Barcelona, Valencia y Polonia. +35 tecnologías cubiertas.</p>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="container">
+
+          <!-- Partners -->
+          <h2 class="subsection-title">Partners de ingeniería</h2>
+          <div class="eng-partners">
+            <div class="eng-partner">
+              <div class="eng-partner__loc">BCN 001 — Barcelona</div>
+              <h3 class="eng-partner__name">Ingeniería multidisciplinar IoT</h3>
+              <p class="eng-partner__desc">Gran ingeniería con amplia experiencia en desarrollo de hardware y software. Especializada en soluciones IoT en cualquiera de sus verticales industriales.</p>
+              <div class="eng-partner__techs">
+                <span class="tech-item tech-item--accent">IoT</span>
+                <span class="tech-item">Hardware</span>
+                <span class="tech-item">Software</span>
+                <span class="tech-item">Firmware</span>
+                <span class="tech-item">PCB</span>
+              </div>
+            </div>
+            <div class="eng-partner">
+              <div class="eng-partner__loc">VAL 002 — Valencia</div>
+              <h3 class="eng-partner__name">Especialista UWB (Ultra Wide Band)</h3>
+              <p class="eng-partner__desc">Dos años de colaboración satisfactoria en proyectos de tecnología UWB. Localización indoor, llaves digitales, RTLS y aplicaciones de proximidad.</p>
+              <div class="eng-partner__techs">
+                <span class="tech-item tech-item--accent">UWB</span>
+                <span class="tech-item tech-item--accent">RTLS</span>
+                <span class="tech-item">Localización indoor</span>
+                <span class="tech-item">Apple Nearby</span>
+              </div>
+            </div>
+            <div class="eng-partner">
+              <div class="eng-partner__loc">POL 003 — Polonia</div>
+              <h3 class="eng-partner__name">Ingeniería competitiva de bajo coste</h3>
+              <p class="eng-partner__desc">Cuando el proyecto está en un sector muy competitivo y no prima la proximidad geográfica. Excelente relación calidad-precio para proyectos de desarrollo.</p>
+              <div class="eng-partner__techs">
+                <span class="tech-item">Bajo coste</span>
+                <span class="tech-item">Hardware</span>
+                <span class="tech-item">Firmware</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Especialidades tabla -->
+          <h2 class="subsection-title" style="margin-top: var(--space-12);">Especialidades técnicas cubiertas</h2>
+          <div class="specs-table">
+            <div class="specs-row specs-row--head">
+              <div>Especialidad</div>
+              <div>Detalle técnico</div>
+            </div>
+            <div class="specs-row"><div>UWB — Ultra Wide Band</div><div>Localización precisa indoor/outdoor, RTLS, llaves digitales vehículo</div></div>
+            <div class="specs-row"><div>5G / 4G LTE</div><div>Diseño y selección de módulos celulares (SIMCOM, MeiG), CPE 5G</div></div>
+            <div class="specs-row"><div>Bluetooth BLE</div><div>Nordic NRF52 / NRF53, BLE 5.x, mesh networking</div></div>
+            <div class="specs-row"><div>Wi-Fi</div><div>Wi-Fi 6 / 802.11ax, NRF7002, diseño de antena integrada</div></div>
+            <div class="specs-row"><div>LoRa / LPWA</div><div>LoRaWAN gateways y nodos, Sigfox, NB-IoT</div></div>
+            <div class="specs-row"><div>GPS / GNSS</div><div>GNSS multi-constelación (GPS, Glonass, Galileo), u-blox, SIMCOM</div></div>
+            <div class="specs-row"><div>Microcontroladores ARM</div><div>ARM Cortex-M0/M4/M7, STM32 full range, programación bare metal</div></div>
+            <div class="specs-row"><div>Diseño PCB</div><div>Altium Designer, KiCad, EMC, multicapa, RF, diseño de alta velocidad</div></div>
+            <div class="specs-row"><div>Fuentes de alimentación</div><div>SMPS custom, DC/DC conmutadas, diseñadas en Europa, fabricación Asia</div></div>
+            <div class="specs-row"><div>Sistemas operativos RTOS</div><div>FreeRTOS, Zephyr OS, Linux embebido, Android industrial</div></div>
+            <div class="specs-row"><div>Sensores</div><div>Temperatura, humedad, inclinómetro, presión, gas (Winsen, Rika)</div></div>
+            <div class="specs-row"><div>MODBUS / Protocolos</div><div>MODBUS RTU/TCP, CAN bus, I2C, SPI, UART, Ethernet industrial</div></div>
+          </div>
+
+          <!-- CTA ingenieros -->
+          <div class="eng-cta">
+            <div class="eng-cta__content">
+              <h3>¿Eres ingeniero o buscas ingenieros?</h3>
+              <p>Únete a nuestra plataforma o solicita el perfil técnico que necesitas para tu proyecto.</p>
+            </div>
+            <div class="eng-cta__btns">
+              <a href="mailto:marketing@atrion.es?subject=ATRION - INGENIERO" class="btn btn--primary">Soy ingeniero</a>
+              <a href="mailto:marketing@atrion.es?subject=ATRION - BUSCO INGENIEROS" class="btn btn--secondary">Busco ingenieros</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div><!-- /page-ingenieria -->
+
+
+    <!-- ══════════════════════════════════════════
+         PAGE: PRODUCTOS
+         ══════════════════════════════════════════ -->
+    <div class="page" id="page-productos">
+      <div class="page-hero">
+        <div class="container">
+          <div class="section-header__overline">Productos</div>
+          <h1 class="page-hero__title">Fabricantes y componentes de primer nivel</h1>
+          <p class="page-hero__desc">Trabajamos con fabricantes líderes mundiales. Cada partner seleccionado por calidad, certificaciones y coste competitivo.</p>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="container">
+          <div class="products-grid">
+
+            <div class="product-card">
+              <div class="product-card__top">
+                <h3 class="product-card__name">Jianghai</h3>
+                <span class="product-card__badge product-card__badge--gold">TOP 3 mundial</span>
+              </div>
+              <div class="product-card__cat">Condensadores</div>
+              <div class="product-card__specs">
+                <div class="pspec"><span class="pspec__k">Ventas</span><span class="pspec__v">USD 1.200M</span></div>
+                <div class="pspec"><span class="pspec__k">Empleados</span><span class="pspec__v">3.900</span></div>
+                <div class="pspec"><span class="pspec__k">Certs.</span><span class="pspec__v">ISO9001, TS-16949</span></div>
+                <div class="pspec"><span class="pspec__k">Origen</span><span class="pspec__v">China 🇨🇳</span></div>
+              </div>
+              <p class="product-card__desc">Electrolíticos, polímero, film, Energy-C y Lithium-Ion capacitors. Posición TOP 3 global.</p>
+              <div class="product-card__range">
+                <span class="prange">Electrolíticos</span><span class="prange">Polímero</span><span class="prange">Film</span><span class="prange">Energy-C</span><span class="prange">LiC</span>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__top">
+                <h3 class="product-card__name">Huading</h3>
+                <span class="product-card__badge">PCB</span>
+              </div>
+              <div class="product-card__cat">Circuitos Impresos (PCB)</div>
+              <div class="product-card__specs">
+                <div class="pspec"><span class="pspec__k">Ventas</span><span class="pspec__v">USD 190M</span></div>
+                <div class="pspec"><span class="pspec__k">Empleados</span><span class="pspec__v">4.600</span></div>
+                <div class="pspec"><span class="pspec__k">Certs.</span><span class="pspec__v">ISO13485, ISO9001</span></div>
+                <div class="pspec"><span class="pspec__k">Origen</span><span class="pspec__v">China 🇨🇳</span></div>
+              </div>
+              <p class="product-card__desc">PCB de alta calidad para aplicaciones industriales y médicas. Certificado para uso en dispositivos médicos.</p>
+              <div class="product-card__range">
+                <span class="prange">Industrial</span><span class="prange">Medical</span><span class="prange">Multicapa</span>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__top">
+                <h3 class="product-card__name">CCL Motors</h3>
+                <span class="product-card__badge product-card__badge--gold">TOP 3 China</span>
+              </div>
+              <div class="product-card__cat">Motores eléctricos</div>
+              <div class="product-card__specs">
+                <div class="pspec"><span class="pspec__k">Ventas</span><span class="pspec__v">USD 300M</span></div>
+                <div class="pspec"><span class="pspec__k">Empleados</span><span class="pspec__v">5.000</span></div>
+                <div class="pspec"><span class="pspec__k">Fundada</span><span class="pspec__v">1922 (centenaria)</span></div>
+                <div class="pspec"><span class="pspec__k">Clientes</span><span class="pspec__v">Philips, Bosch, Karcher</span></div>
+              </div>
+              <p class="product-card__desc">Motores para HVAC, electrodomésticos, logística, movilidad y healthcare. Clientes como DeLonghi, Electrolux, Whirlpool.</p>
+              <div class="product-card__range">
+                <span class="prange">HVAC</span><span class="prange">Floor Care</span><span class="prange">Logística</span><span class="prange">Healthcare</span><span class="prange">Industrial</span>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__top">
+                <h3 class="product-card__name">Pulsar</h3>
+                <span class="product-card__badge">Seguridad</span>
+              </div>
+              <div class="product-card__cat">Fuentes de alimentación</div>
+              <div class="product-card__specs">
+                <div class="pspec"><span class="pspec__k">Ventas</span><span class="pspec__v">30M€</span></div>
+                <div class="pspec"><span class="pspec__k">Empleados</span><span class="pspec__v">2.230</span></div>
+                <div class="pspec"><span class="pspec__k">Certs.</span><span class="pspec__v">EN54-4, EN50131</span></div>
+                <div class="pspec"><span class="pspec__k">Partners</span><span class="pspec__v">BOSCH, SATEL</span></div>
+              </div>
+              <p class="product-card__desc">Fuentes para sistemas de seguridad, CCTV, alarmas y automatización. Certificadas EN54 (contra incendios) y EN50131 (intrusión).</p>
+              <div class="product-card__range">
+                <span class="prange">CCTV</span><span class="prange">Contra incendios</span><span class="prange">Intrusión</span><span class="prange">Industrial</span>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__top">
+                <h3 class="product-card__name">ADDA</h3>
+                <span class="product-card__badge">Ventilación</span>
+              </div>
+              <div class="product-card__cat">Ventiladores industriales</div>
+              <div class="product-card__specs">
+                <div class="pspec"><span class="pspec__k">Ventas</span><span class="pspec__v">USD 93M</span></div>
+                <div class="pspec"><span class="pspec__k">Empleados</span><span class="pspec__v">1.279</span></div>
+                <div class="pspec"><span class="pspec__k">Certs.</span><span class="pspec__v">IATF16949, IECQ QC08000</span></div>
+                <div class="pspec"><span class="pspec__k">Origen</span><span class="pspec__v">Taiwan 🇹🇼</span></div>
+              </div>
+              <p class="product-card__desc">Ventiladores de alta fiabilidad para refrigeración industrial, telecomunicaciones y electrónica de potencia.</p>
+              <div class="product-card__range">
+                <span class="prange">Axiales</span><span class="prange">Centrífugos</span><span class="prange">DC / AC</span>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-card__top">
+                <h3 class="product-card__name">Fuentes custom</h3>
+                <span class="product-card__badge">A medida</span>
+              </div>
+              <div class="product-card__cat">Fuentes de alimentación personalizadas</div>
+              <div class="product-card__specs">
+                <div class="pspec"><span class="pspec__k">Diseño</span><span class="pspec__v">Europa</span></div>
+                <div class="pspec"><span class="pspec__k">Fab. opción 1</span><span class="pspec__v">España / E. Europa</span></div>
+                <div class="pspec"><span class="pspec__k">Fab. opción 2</span><span class="pspec__v">Asia (mayor volumen)</span></div>
+                <div class="pspec"><span class="pspec__k">Tipo</span><span class="pspec__v">SMPS conmutadas</span></div>
+              </div>
+              <p class="product-card__desc">Diseñamos y fabricamos fuentes a medida con costes asiáticos. Especificaciones personalizadas, certificaciones y entrega flexible.</p>
+              <div class="product-card__range">
+                <span class="prange">SMPS custom</span><span class="prange">DC/DC</span><span class="prange">AC/DC</span><span class="prange">Certificadas</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- SECTORES -->
+          <h2 class="subsection-title" style="margin-top: var(--space-12);">Sectores de aplicación</h2>
+          <div class="sectors-grid">
+            <div class="sector-tag"><span class="sector-tag__icon">🌱</span>Agrotech</div>
+            <div class="sector-tag"><span class="sector-tag__icon">⚙️</span>Automatización</div>
+            <div class="sector-tag"><span class="sector-tag__icon">☕</span>Consumer</div>
+            <div class="sector-tag"><span class="sector-tag__icon">🏠</span>Domótica</div>
+            <div class="sector-tag"><span class="sector-tag__icon">⚡</span>Energía</div>
+            <div class="sector-tag"><span class="sector-tag__icon">💡</span>Iluminación</div>
+            <div class="sector-tag"><span class="sector-tag__icon">🤖</span>Industrial / Robótica</div>
+            <div class="sector-tag"><span class="sector-tag__icon">📊</span>Instrumentación</div>
+            <div class="sector-tag"><span class="sector-tag__icon">📡</span>IoT</div>
+            <div class="sector-tag"><span class="sector-tag__icon">🏥</span>Medical / Salud</div>
+            <div class="sector-tag"><span class="sector-tag__icon">🔒</span>Seguridad</div>
+            <div class="sector-tag"><span class="sector-tag__icon">📶</span>Telecom</div>
+          </div>
+
+        </div>
+      </section>
+    </div><!-- /page-productos -->
+
+
+    <!-- ══════════════════════════════════════════
+         PAGE: CONTACTO
+         ══════════════════════════════════════════ -->
+    <div class="page" id="page-contacto">
+      <div class="page-hero">
+        <div class="container">
+          <div class="section-header__overline">Contacto</div>
+          <h1 class="page-hero__title">Comunícate con nosotros</h1>
+          <p class="page-hero__desc">Nos encanta recibir clientes. Ven a visitarnos o envíanos un mensaje y te respondemos en menos de 24h.</p>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-item__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <div class="contact-item__content">
+                  <h3>Dirección</h3>
+                  <p>Atrion Spain, S.L.<br>08197 Sant Cugat del Vallès<br>Barcelona, España</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                <div class="contact-item__content">
+                  <h3>Teléfono</h3>
+                  <a href="tel:+34606346002">+34 606 346 002</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+                <div class="contact-item__content">
+                  <h3>Email</h3>
+                  <a href="mailto:marketing@atrion.es">marketing@atrion.es</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg></div>
+                <div class="contact-item__content">
+                  <h3>Horario</h3>
+                  <p>Lunes a Viernes: 09:00 – 18:00</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item__icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div>
+                <div class="contact-item__content">
+                  <h3>LinkedIn</h3>
+                  <a href="https://www.linkedin.com/in/carlosduranlanfranco/" target="_blank" rel="noopener noreferrer">Carlos Durán Lanfranco</a>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/marketing@atrion.es" method="POST">
+              <h3 class="contact-form__title">Envíanos un mensaje</h3>
+              <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="tu@empresa.com" required autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="company">Empresa</label>
+                <input type="text" id="company" name="company" placeholder="Nombre de la empresa" autocomplete="organization">
+              </div>
+              <div class="form-group">
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" placeholder="+34 600 000 000" autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label for="message">Mensaje *</label>
+                <textarea id="message" name="message" placeholder="Cuéntanos tu necesidad..." required></textarea>
+              </div>
+              <p class="form-notice">Tu mensaje llegará directamente a marketing@atrion.es. Respondemos en menos de 24h en días laborables.</p>
+              <button type="submit" class="btn btn--primary" style="width:100%;" id="submitBtn">Enviar mensaje</button>
+            </form>
+            <div class="form-success" id="formSuccess">
+              <h3>¡Mensaje enviado!</h3>
+              <p>Hemos recibido tu consulta. Te responderemos en menos de 24 horas.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div><!-- /page-contacto -->
+
+  </main><!-- /pages -->
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container container--max">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#inicio" data-page="inicio" class="footer__logo-link">
+            <img src="./assets/logo.jpg" alt="ATRION" class="footer__logo-img">
+          </a>
+          <p>Más de 35 años encontrando la mejor solución electrónica para cada necesidad.</p>
+          <p style="margin-top: var(--space-2);">Sant Cugat del Vallès, Barcelona.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Servicios</h4>
+          <ul role="list">
+            <li><a href="#servicios" data-page="servicios">ATRION Cost</a></li>
+            <li><a href="#servicios" data-page="servicios">ATRION Ingeniería</a></li>
+            <li><a href="#servicios" data-page="servicios">ATRION Sales</a></li>
+            <li><a href="#fabricacion" data-page="fabricacion">Fabricación EMS</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Empresa</h4>
+          <ul role="list">
+            <li><a href="#ingenieria" data-page="ingenieria">Ingeniería</a></li>
+            <li><a href="#productos" data-page="productos">Productos</a></li>
+            <li><a href="https://catalog.atrion.es/" target="_blank" rel="noopener noreferrer">Catálogo online</a></li>
+            <li><a href="#contacto" data-page="contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contacto</h4>
+          <ul role="list">
+            <li><a href="tel:+34606346002">+34 606 346 002</a></li>
+            <li><a href="mailto:marketing@atrion.es">marketing@atrion.es</a></li>
+            <li><a href="https://www.linkedin.com/in/carlosduranlanfranco/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://www.reboltcapital.com/" target="_blank" rel="noopener">REBOLT Capital</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Atrion Spain, S.L. Todos los derechos reservados.</p>
+        <div class="footer__social">
+          <a href="https://www.linkedin.com/in/carlosduranlanfranco/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+<script data-pplx-inline-edit>
+(function(){
+  if(window===window.top)return;
+  function inlineAll(orig,clone){
+    if(orig.nodeType!==1)return;
+    try{
+      var cs=getComputedStyle(orig);
+      var t='';
+      for(var i=0;i<cs.length;i++){t+=cs[i]+':'+cs.getPropertyValue(cs[i])+';';}
+      clone.style.cssText=t;
+    }catch(e){}
+    var oc=orig.children,cc=clone.children;
+    for(var j=0;j<oc.length&&j<cc.length;j++){inlineAll(oc[j],cc[j]);}
+  }
+  function stripExternal(clone){
+    var imgs=clone.querySelectorAll('img');
+    for(var i=0;i<imgs.length;i++){
+      var s=imgs[i].getAttribute('src');
+      if(s&&!s.startsWith('data:'))imgs[i].removeAttribute('src');
+    }
+    var all=clone.querySelectorAll('*');
+    for(var i=0;i<all.length;i++){
+      var st=all[i].style.cssText;
+      if(st&&st.indexOf('url(')>=0){
+        all[i].style.cssText=st.replace(/url\(["']?(?!data:)[^)"']*["']?\)/gi,'none');
+      }
+    }
+  }
+  window.addEventListener('message',function(e){
+    if(!e.data||e.data.type!=='INLINE_EDIT_CAPTURE_REQUEST')return;
+    var scrollX=window.scrollX||window.pageXOffset||0;
+    var scrollY=window.scrollY||window.pageYOffset||0;
+    var w=window.innerWidth,h=window.innerHeight;
+    try{
+      var clone=document.documentElement.cloneNode(true);
+      var rm=clone.querySelectorAll('script,link[rel="stylesheet"],style');
+      for(var i=0;i<rm.length;i++){rm[i].remove();}
+      inlineAll(document.documentElement,clone);
+      stripExternal(clone);
+      var html=new XMLSerializer().serializeToString(clone);
+      var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'
+        +'<foreignObject width="100%" height="100%">'
+        +'<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+w+'px;height:'+h+'px;overflow:hidden">'
+        +'<div style="transform:translate(-'+scrollX+'px,-'+scrollY+'px);transform-origin:top left">'
+        +html+'</div></div></foreignObject></svg>';
+      var svgUrl='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+      var img=new Image();
+      img.onload=function(){
+        var c=document.createElement('canvas');c.width=w;c.height=h;
+        c.getContext('2d').drawImage(img,0,0);
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:c.toDataURL('image/png'),scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.onerror=function(){
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.src=svgUrl;
+    }catch(err){
+      window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+    }
+  });
+})();
+</script></body>
+</html>
